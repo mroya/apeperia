@@ -1,13 +1,10 @@
 .chamada  {
+    align-items: center;
+    background-color: #00161C;
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
-    color: #FFF;
     text-align: center;
-    
-    background-color: #00161C;
-
     padding-top: 12.25rem;
     padding-bottom: 2.5rem;
 }
@@ -17,17 +14,21 @@
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
-
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .chamada__texto {
     font-size: 1.25rem;
     line-height: normal;
-
     margin: 0 auto 2.5rem;
+    text-align: center;
 }
 
 .chamada__botao {
-    width: 100%;
+    width: 15.625rem;
+    padding: 20px;
+    border: solid #ffffff 1px;
+    border-radius: 5px;
+    text-align: center;
 }
